@@ -1,3 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.mythic {
+  background-image: linear-gradient(to right, #fb923c, #eab308);
+  font-weight: 800;
+  color: transparent;
+  background-clip: text;
+}
+
+.rare {
+  background-image: linear-gradient(to right, #a6873f, #c2a13e);
+  font-weight: 800;
+  color: transparent;
+  background-clip: text;
+}
+
+.uncommon {
+  background-image: linear-gradient(to right, #acacac, #848484);
+  font-weight: 800;
+  color: transparent;
+  background-clip: text;
+}
+
+.common {
+  font-weight: 600;
+  color: black;
+}
